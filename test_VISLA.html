@@ -4,9 +4,21 @@
     <meta charset="utf-8">
     <script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
     <title>VISLA testing environment</title>
+    <style media="screen">
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    </style>
   </head>
   <body>
     <h1>Introduction to Vectors</h1>
+    <div class="flex-container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
     <p>Heart of Linear Algebra is two operations (both with vectors).
     * Add vectors together: v+w
     * Multiply them: cv + cw
@@ -22,3 +34,8 @@
 	y: [1, 2, 4, 8, 16] }], {
 	margin: { t: 0 } }, {displayModeBar: false} );
 </script>
+
+<!--
+  https://www.w3schools.com/css/css3_flexbox.asp
+  https://plot.ly/javascript/configuration-options/
+-->
